@@ -39,6 +39,11 @@ sh ./setup.sh
 
 ## Running locally
 
+Create volume 
+```
+docker volume create --name=<your-app-name>-web-backend-db-data
+```
+
 Run backend services:
 ```sh
 make up
